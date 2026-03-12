@@ -1,0 +1,26 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="800" rx="80" fill="#0c0a14"/>
+  <!-- Subtle radial glow -->
+  <radialGradient id="glow" cx="50%" cy="42%" r="45%">
+    <stop offset="0%" stop-color="#a855f7" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#0c0a14" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="800" height="800" rx="80" fill="url(#glow)"/>
+  <!-- Geometric Crown-M Logo Mark -->
+  <!-- A bold M shape with a crown-like peak in the center -->
+  <g transform="translate(160, 180)">
+    <!-- Left pillar -->
+    <rect x="0" y="80" width="80" height="360" fill="#a855f7"/>
+    <!-- Right pillar -->
+    <rect x="400" y="80" width="80" height="360" fill="#a855f7"/>
+    <!-- Left diagonal -->
+    <polygon points="80,80 240,320 240,200 80,0" fill="#a855f7"/>
+    <!-- Right diagonal -->
+    <polygon points="400,80 240,320 240,200 400,0" fill="#a855f7"/>
+    <!-- Crown peak - gold accent -->
+    <polygon points="210,200 240,140 270,200" fill="#f5c542"/>
+    <!-- Small gold diamond at very top -->
+    <polygon points="240,100 258,140 240,180 222,140" fill="#f5c542" opacity="0.8"/>
+  </g>
+</svg>

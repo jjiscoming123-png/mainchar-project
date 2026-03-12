@@ -1,0 +1,23 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1500" height="500" fill="#0c0a14"/>
+  <!-- Subtle glow -->
+  <radialGradient id="glow" cx="30%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#a855f7" stop-opacity="0.08"/>
+    <stop offset="100%" stop-color="#0c0a14" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1500" height="500" fill="url(#glow)"/>
+  <!-- Main text -->
+  <text x="100" y="220" font-family="Inter, system-ui, sans-serif" font-weight="900" font-size="120" fill="#ffffff" letter-spacing="-3">YOU ARE THE</text>
+  <text x="100" y="350" font-family="Inter, system-ui, sans-serif" font-weight="900" font-size="120" fill="#a855f7" letter-spacing="-3">MAIN CHARACTER.</text>
+  <!-- Subtle label -->
+  <text x="100" y="420" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="18" fill="#5a5270" letter-spacing="4">THE PROTAGONIST PROTOCOL</text>
+  <!-- Crown-M logo on right -->
+  <g transform="translate(1280, 120) scale(0.50)">
+    <rect x="0" y="80" width="80" height="360" fill="#a855f7" opacity="0.15"/>
+    <rect x="400" y="80" width="80" height="360" fill="#a855f7" opacity="0.15"/>
+    <polygon points="80,80 240,320 240,200 80,0" fill="#a855f7" opacity="0.15"/>
+    <polygon points="400,80 240,320 240,200 400,0" fill="#a855f7" opacity="0.15"/>
+    <polygon points="240,100 258,140 240,180 222,140" fill="#f5c542" opacity="0.12"/>
+  </g>
+</svg>
