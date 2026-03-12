@@ -165,6 +165,20 @@
 .anim-in { animation: fadeIn 1.5s ease-out both; }
 .d1 { animation-delay: 0.2s; } .d2 { animation-delay: 0.4s; } .d3 { animation-delay: 0.6s; } .d4 { animation-delay: 0.9s; }
 
+/* -- Floating particles -- */
+.particles { position: absolute; inset: 0; pointer-events: none; z-index: 1; }
+.particle {
+  position: absolute;
+  background: var(--color-gold);
+  border-radius: 50%;
+  opacity: 0;
+  animation: float ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% { opacity: 0; transform: translateY(0); }
+  50% { opacity: 0.6; transform: translateY(-30px); }
+}
+
 ::-webkit-scrollbar { width: 3px; }
 ::-webkit-scrollbar-track { background: var(--color-bg); }
 ::-webkit-scrollbar-thumb { background: rgba(212, 168, 67, 0.2); }
