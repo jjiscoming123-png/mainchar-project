@@ -42,7 +42,7 @@
 }
 .poster-title {
   font-family: var(--font-title);
-  font-size: clamp(6rem, 20vw, 16rem);
+  font-size: clamp(4.5rem, 14vw, 12rem);
   line-height: 0.85;
   letter-spacing: 0.04em;
   text-align: center;
